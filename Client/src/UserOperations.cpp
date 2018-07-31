@@ -7,6 +7,8 @@
 #include <cstring>
 #include <vector>
 #include <sys/stat.h>
+#include <fcntl.h>
+#include <zconf.h>
 #include "UserOperations.h"
 #include "TransmissionControlProtocolSerial.h"
 #include "Request/LoginRequest.h"
@@ -15,6 +17,7 @@
 #include "Request/HandInRequest.h"
 #include "Request/HandUpRequest.h"
 #include "Request/QuitRequest.h"
+#include "Request/FileRequest.h"
 
 void checkUsername(std::string &username) {
     for (auto c : username) {
@@ -51,16 +54,6 @@ void UserOperations::Login(TransmissionControlProtocolSerial *TCPSerial) {
     }
     auto request = new LoginRequest(username, *summaryVec);
 
-    // debug
-    fprintf(stderr, "####### DEBUG #######\n");
-    fprintf(stderr, "size:    %u\n", request->getRequestSize());
-    fprintf(stderr, "type:    %u\n", request->getRequestType());
-    fprintf(stderr, "body:\n");
-    for (auto c : request->getRequestBody()) {
-        fprintf (stderr, "%d ", c);
-    }
-    fprintf(stderr, "\n#####################\n");
-
     TCPSerial->sendRequest(request);
     delete request;
     Request * recvRequest;
@@ -89,10 +82,11 @@ void UserOperations::HandIn(TransmissionControlProtocolSerial* TCPSerial) {
     }
     TCPSerial->sendRequest(handInRequest);
     delete handInRequest;
+
     Request * recvRequest;
     TCPSerial->receiveRequest(&recvRequest);
     if (recvRequest->getRequestType() == Request::RTYPE_OK) {
-        return;
+        goto sendfile;
     } else if (recvRequest->getRequestType() == Request::RTYPE_ERR) {
         std::string errorMessage;
         ((ErrorRequest*) recvRequest)->depackData(&errorMessage);
@@ -100,12 +94,36 @@ void UserOperations::HandIn(TransmissionControlProtocolSerial* TCPSerial) {
     } else {
         throw std::runtime_error("unknown error");
     }
+
+    sendfile:
+    struct stat fileInfo = {0};
+    stat(path.c_str(), &fileInfo);
+    size_t packSize = 65535;
+    auto packNumber = fileInfo.st_size / packSize;
+    packNumber += (packNumber * packSize != fileInfo.st_size);
+    auto fileDescriptor = open(path.c_str(), O_RDONLY);
+    for (int i = 0; i < packNumber; i ++) {
+        int8_t fileBuff[packSize];
+        bzero(fileBuff, packSize);
+        read(fileDescriptor, fileBuff, packSize);
+        auto fileRequest = new FileRequest(fileBuff, packSize);
+        while (true) {
+            TCPSerial->sendRequest(fileRequest);
+            Request *request = nullptr;
+            TCPSerial->receiveRequest(&request);
+            if (request->getRequestType() == Request::RTYPE_OK) {
+                break;
+            }
+        }
+        delete fileRequest;
+    }
 }
 
 void UserOperations::HandUp(TransmissionControlProtocolSerial *TCPSerial) {
     auto request = new HandUpRequest();
     TCPSerial->sendRequest(request);
     delete request;
+
     Request * recvRequest;
     TCPSerial->receiveRequest(&recvRequest);
     if (recvRequest->getRequestType() == Request::RTYPE_OK) {

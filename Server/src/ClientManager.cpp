@@ -78,7 +78,7 @@ void ClientManager::handleNewConnection(TransmissionControlProtocolSerial *TCPSe
     pthread_join(newConnectionHandlerPid, nullptr);
 }
 
-extern void requestHandler(Request *request, bool *quitFlag, TransmissionControlProtocolSerial* TCPSerial, int connfd) {
+void requestHandler(Request *request, bool *quitFlag, TransmissionControlProtocolSerial* TCPSerial, int connfd) {
     switch (request->getRequestType()) {
         case Request::RTYPE_LOGIN:
             printf ("some one is attempting to log in..\n");
@@ -89,6 +89,8 @@ extern void requestHandler(Request *request, bool *quitFlag, TransmissionControl
         case Request::RTYPE_QUIT:
             *quitFlag = true;
             break;
+        case Request::RTYPE_HANDIN:
+
         default:
             throw std::runtime_error(std::string("invalid request type"));
     }

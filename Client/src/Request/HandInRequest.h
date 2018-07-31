@@ -14,7 +14,7 @@ public:
 
     void packData(std::string path);
 
-    void depackData(struct stat *stat64Buffer);
+    void depackData(struct stat *statBuffer);
 };
 
 

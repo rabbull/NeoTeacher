@@ -23,6 +23,6 @@ void HandInRequest::packData(std::string path) {
     requestBody.assign((char*)&statBuffer, sizeof(statBuffer));
 }
 
-void HandInRequest::depackData(struct stat *stat64Buffer) {
-    memcpy(stat64Buffer, requestBody.c_str(), sizeof(struct stat64));
+void HandInRequest::depackData(struct stat *statBuffer) {
+    memcpy(statBuffer, requestBody.c_str(), sizeof(struct stat));
 }

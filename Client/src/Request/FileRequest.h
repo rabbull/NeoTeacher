@@ -11,12 +11,11 @@
 
 class FileRequest : public Request {
 public:
-    explicit FileRequest(std::string data);
+    explicit FileRequest(int8_t data[], size_t size);
 
-    void packData(std::string data);
+    void packData(int8_t data[], size_t size);
 
-    void depackData(std::string *dataBuffer);
+    void depackData(int8_t **data, size_t *size);
 };
-
 
 #endif //CLIENT_FILEREQUEST_H

@@ -8,8 +8,9 @@
 
 #include "TransmissionControlProtocolSerial.h"
 
-namespace UserOperations {
+void checkUsername(std::string&);
 
+namespace UserOperations {
     void Login(TransmissionControlProtocolSerial* TCPSerial);
 
     void HandIn(TransmissionControlProtocolSerial* TCPSerial);
