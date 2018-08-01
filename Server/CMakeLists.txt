@@ -28,7 +28,7 @@ add_executable(${PROJECT_NAME} main.cpp
         src/Setting.h src/Setting.cpp
         src/Client.h src/Client.cpp
         src/ClientManager.h src/ClientManager.cpp
-        )
+        src/RequestHandler.cpp src/RequestHandler.h)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME}
         ${JSON_LIBRARIES}

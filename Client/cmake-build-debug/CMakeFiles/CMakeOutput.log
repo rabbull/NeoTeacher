@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1c6a2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1c6a2.dir/build.make CMakeFiles/cmTC_1c6a2.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1c6a2.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1c6a2.dir/testCCompiler.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1c6a2
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c6a2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_1c6a2.dir/testCCompiler.c.o  -o cmTC_1c6a2 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_500ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_500ef.dir/build.make CMakeFiles/cmTC_500ef.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_500ef.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_500ef.dir/testCCompiler.c.o   -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_500ef
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500ef.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_500ef.dir/testCCompiler.c.o  -o cmTC_500ef 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5889/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5889.dir/build.make CMakeFiles/cmTC_d5889.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d5889
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5889.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o  -o cmTC_d5889 
+Run Build Command:"/usr/bin/make" "cmTC_796b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_796b7.dir/build.make CMakeFiles/cmTC_796b7.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_796b7
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796b7.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o  -o cmTC_796b7 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5889' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnRaOAh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d5889 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5889' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_796b7' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLoM0J5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_796b7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_796b7' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d5889/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d5889.dir/build.make CMakeFiles/cmTC_d5889.dir/build]
-  ignore line: [make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d5889]
-  ignore line: [/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5889.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o  -o cmTC_d5889 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_796b7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_796b7.dir/build.make CMakeFiles/cmTC_796b7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_796b7]
+  ignore line: [/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796b7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o  -o cmTC_796b7 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5889' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnRaOAh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d5889 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_796b7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLoM0J5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_796b7 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccnRaOAh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLoM0J5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d5889] ==> ignore
+    arg [cmTC_796b7] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_d5889.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_796b7.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c781/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c781.dir/build.make CMakeFiles/cmTC_9c781.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c781.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9c781.dir/feature_tests.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9c781
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c781.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_9c781.dir/feature_tests.c.o  -o cmTC_9c781 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_db479/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db479.dir/build.make CMakeFiles/cmTC_db479.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db479.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_db479.dir/feature_tests.c.o   -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db479
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db479.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_db479.dir/feature_tests.c.o  -o cmTC_db479 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3855f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3855f.dir/build.make CMakeFiles/cmTC_3855f.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3855f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3855f.dir/feature_tests.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3855f
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3855f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_3855f.dir/feature_tests.c.o  -o cmTC_3855f 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_36fe8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36fe8.dir/build.make CMakeFiles/cmTC_36fe8.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36fe8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_36fe8.dir/feature_tests.c.o   -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_36fe8
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36fe8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_36fe8.dir/feature_tests.c.o  -o cmTC_36fe8 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a10d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7a10d.dir/build.make CMakeFiles/cmTC_7a10d.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a10d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7a10d.dir/feature_tests.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7a10d
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a10d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_7a10d.dir/feature_tests.c.o  -o cmTC_7a10d 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c84b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c84b1.dir/build.make CMakeFiles/cmTC_c84b1.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c84b1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c84b1.dir/feature_tests.c.o   -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c84b1
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c84b1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c84b1.dir/feature_tests.c.o  -o cmTC_c84b1 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_416b1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_416b1.dir/build.make CMakeFiles/cmTC_416b1.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_416b1.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_416b1.dir/testCXXCompiler.cxx.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_416b1
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_416b1.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_416b1.dir/testCXXCompiler.cxx.o  -o cmTC_416b1 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1d565/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d565.dir/build.make CMakeFiles/cmTC_1d565.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d565.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1d565.dir/testCXXCompiler.cxx.o -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1d565
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d565.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1d565.dir/testCXXCompiler.cxx.o  -o cmTC_1d565 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ca583/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ca583.dir/build.make CMakeFiles/cmTC_ca583.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ca583
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca583.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca583 
+Run Build Command:"/usr/bin/make" "cmTC_f518b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f518b.dir/build.make CMakeFiles/cmTC_f518b.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f518b
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f518b.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f518b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca583' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBI8Uk8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca583 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca583' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f518b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs2iO5T.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f518b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f518b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ca583/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ca583.dir/build.make CMakeFiles/cmTC_ca583.dir/build]
-  ignore line: [make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ca583]
-  ignore line: [/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca583.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ca583 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f518b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f518b.dir/build.make CMakeFiles/cmTC_f518b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f518b]
+  ignore line: [/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f518b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f518b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca583' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBI8Uk8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca583 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f518b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccs2iO5T.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f518b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBI8Uk8.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccs2iO5T.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ca583] ==> ignore
+    arg [cmTC_f518b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_ca583.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f518b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_25d4d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_25d4d.dir/build.make CMakeFiles/cmTC_25d4d.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_25d4d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_25d4d.dir/feature_tests.cxx.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_25d4d
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25d4d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_25d4d.dir/feature_tests.cxx.o  -o cmTC_25d4d 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_00408/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00408.dir/build.make CMakeFiles/cmTC_00408.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00408.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_00408.dir/feature_tests.cxx.o -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_00408
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00408.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_00408.dir/feature_tests.cxx.o  -o cmTC_00408 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2110a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2110a.dir/build.make CMakeFiles/cmTC_2110a.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2110a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2110a.dir/feature_tests.cxx.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2110a
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2110a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2110a.dir/feature_tests.cxx.o  -o cmTC_2110a 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_026c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_026c5.dir/build.make CMakeFiles/cmTC_026c5.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_026c5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_026c5.dir/feature_tests.cxx.o -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_026c5
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_026c5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_026c5.dir/feature_tests.cxx.o  -o cmTC_026c5 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ba4c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ba4c.dir/build.make CMakeFiles/cmTC_1ba4c.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1ba4c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_1ba4c.dir/feature_tests.cxx.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1ba4c
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba4c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_1ba4c.dir/feature_tests.cxx.o  -o cmTC_1ba4c 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_46f72/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46f72.dir/build.make CMakeFiles/cmTC_46f72.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46f72.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_46f72.dir/feature_tests.cxx.o -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_46f72
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f72.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_46f72.dir/feature_tests.cxx.o  -o cmTC_46f72 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76cd5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76cd5.dir/build.make CMakeFiles/cmTC_76cd5.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76cd5.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_76cd5.dir/feature_tests.cxx.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_76cd5
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76cd5.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_76cd5.dir/feature_tests.cxx.o  -o cmTC_76cd5 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7da09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7da09.dir/build.make CMakeFiles/cmTC_7da09.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7da09.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_7da09.dir/feature_tests.cxx.o -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7da09
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7da09.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7da09.dir/feature_tests.cxx.o  -o cmTC_7da09 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,114 +632,114 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cm
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e38fe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e38fe.dir/build.make CMakeFiles/cmTC_e38fe.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e38fe.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_e38fe.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e38fe
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e38fe.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_e38fe.dir/CheckFunctionExists.c.o  -o cmTC_e38fe /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_05c97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05c97.dir/build.make CMakeFiles/cmTC_05c97.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05c97.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_05c97.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05c97
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c97.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_05c97.dir/CheckFunctionExists.c.o  -o cmTC_05c97 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb65c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb65c.dir/build.make CMakeFiles/cmTC_eb65c.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb65c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_eb65c.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eb65c
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb65c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_eb65c.dir/CheckFunctionExists.c.o  -o cmTC_eb65c 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fe2d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe2d5.dir/build.make CMakeFiles/cmTC_fe2d5.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe2d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_fe2d5.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe2d5
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe2d5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_fe2d5.dir/CheckFunctionExists.c.o  -o cmTC_fe2d5 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31b69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31b69.dir/build.make CMakeFiles/cmTC_31b69.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31b69.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_31b69.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_31b69
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31b69.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_31b69.dir/CheckFunctionExists.c.o  -o cmTC_31b69 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c3c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c3c1.dir/build.make CMakeFiles/cmTC_9c3c1.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c3c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_9c3c1.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c3c1
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c3c1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_9c3c1.dir/CheckFunctionExists.c.o  -o cmTC_9c3c1 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42956/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42956.dir/build.make CMakeFiles/cmTC_42956.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42956.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_42956.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_42956
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42956.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_42956.dir/CheckFunctionExists.c.o  -o cmTC_42956 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_84d08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84d08.dir/build.make CMakeFiles/cmTC_84d08.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84d08.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_84d08.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_84d08
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d08.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_84d08.dir/CheckFunctionExists.c.o  -o cmTC_84d08 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42332/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42332.dir/build.make CMakeFiles/cmTC_42332.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_42332.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_42332.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_42332
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42332.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_42332.dir/CheckFunctionExists.c.o  -o cmTC_42332 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dd458/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd458.dir/build.make CMakeFiles/cmTC_dd458.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd458.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_dd458.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd458
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd458.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_dd458.dir/CheckFunctionExists.c.o  -o cmTC_dd458 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f203/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f203.dir/build.make CMakeFiles/cmTC_8f203.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8f203.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_8f203.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8f203
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f203.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_8f203.dir/CheckFunctionExists.c.o  -o cmTC_8f203 -lICE 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_61f7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61f7a.dir/build.make CMakeFiles/cmTC_61f7a.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61f7a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_61f7a.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61f7a
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61f7a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_61f7a.dir/CheckFunctionExists.c.o  -o cmTC_61f7a -lICE 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2b2fe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2b2fe.dir/build.make CMakeFiles/cmTC_2b2fe.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2b2fe.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2b2fe.dir/CheckIncludeFile.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2b2fe
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b2fe.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2b2fe.dir/CheckIncludeFile.c.o  -o cmTC_2b2fe 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1b765/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b765.dir/build.make CMakeFiles/cmTC_1b765.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b765.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1b765.dir/CheckIncludeFile.c.o   -c /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1b765
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b765.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1b765.dir/CheckIncludeFile.c.o  -o cmTC_1b765 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f947c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f947c.dir/build.make CMakeFiles/cmTC_f947c.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f947c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f947c.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f947c
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f947c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f947c.dir/CheckFunctionExists.c.o  -o cmTC_f947c -lpthread 
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_40526/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40526.dir/build.make CMakeFiles/cmTC_40526.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40526.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40526.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40526
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40526.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_40526.dir/CheckFunctionExists.c.o  -o cmTC_40526 -lpthread 
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Client/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

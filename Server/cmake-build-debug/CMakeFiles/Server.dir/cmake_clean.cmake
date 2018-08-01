@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Server.dir/src/Setting.cpp.o"
   "CMakeFiles/Server.dir/src/Client.cpp.o"
   "CMakeFiles/Server.dir/src/ClientManager.cpp.o"
+  "CMakeFiles/Server.dir/src/RequestHandler.cpp.o"
   "Server.pdb"
   "Server"
 )

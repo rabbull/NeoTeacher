@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/Server
+CMAKE_SOURCE_DIR = /home/karl/Documents/NeoTeacher/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/karl/Documents/NeoTeacher/Server/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -447,6 +447,33 @@ src/Request/Request.cpp.s:
 	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/Request/Request.cpp.s
 .PHONY : src/Request/Request.cpp.s
 
+src/RequestHandler.o: src/RequestHandler.cpp.o
+
+.PHONY : src/RequestHandler.o
+
+# target to build an object file
+src/RequestHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/RequestHandler.cpp.o
+.PHONY : src/RequestHandler.cpp.o
+
+src/RequestHandler.i: src/RequestHandler.cpp.i
+
+.PHONY : src/RequestHandler.i
+
+# target to preprocess a source file
+src/RequestHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/RequestHandler.cpp.i
+.PHONY : src/RequestHandler.cpp.i
+
+src/RequestHandler.s: src/RequestHandler.cpp.s
+
+.PHONY : src/RequestHandler.s
+
+# target to generate assembly for a file
+src/RequestHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/src/RequestHandler.cpp.s
+.PHONY : src/RequestHandler.cpp.s
+
 src/Setting.o: src/Setting.cpp.o
 
 .PHONY : src/Setting.o
@@ -546,6 +573,9 @@ help:
 	@echo "... src/Request/Request.o"
 	@echo "... src/Request/Request.i"
 	@echo "... src/Request/Request.s"
+	@echo "... src/RequestHandler.o"
+	@echo "... src/RequestHandler.i"
+	@echo "... src/RequestHandler.s"
 	@echo "... src/Setting.o"
 	@echo "... src/Setting.i"
 	@echo "... src/Setting.s"

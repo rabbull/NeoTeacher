@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5622/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5622.dir/build.make CMakeFiles/cmTC_a5622.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5622.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a5622.dir/CheckSymbolExists.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_a5622
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5622.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_a5622.dir/CheckSymbolExists.c.o  -o cmTC_a5622 
-CMakeFiles/cmTC_a5622.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_99a8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99a8e.dir/build.make CMakeFiles/cmTC_99a8e.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99a8e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99a8e.dir/CheckSymbolExists.c.o   -c /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99a8e
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a8e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_99a8e.dir/CheckSymbolExists.c.o  -o cmTC_99a8e 
+CMakeFiles/cmTC_99a8e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a5622.dir/build.make:86: recipe for target 'cmTC_a5622' failed
-make[1]: *** [cmTC_a5622] Error 1
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_a5622/fast' failed
-make: *** [cmTC_a5622/fast] Error 2
+CMakeFiles/cmTC_99a8e.dir/build.make:86: recipe for target 'cmTC_99a8e' failed
+make[1]: *** [cmTC_99a8e] Error 1
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_99a8e/fast' failed
+make: *** [cmTC_99a8e/fast] Error 2
 
-File /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bdbbd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bdbbd.dir/build.make CMakeFiles/cmTC_bdbbd.dir/build
-make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bdbbd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bdbbd.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bdbbd
-/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdbbd.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bdbbd.dir/CheckFunctionExists.c.o  -o cmTC_bdbbd -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a8bc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8bc0.dir/build.make CMakeFiles/cmTC_a8bc0.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8bc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a8bc0.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8bc0
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8bc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a8bc0.dir/CheckFunctionExists.c.o  -o cmTC_a8bc0 -lpthreads 
 /usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bdbbd.dir/build.make:86: recipe for target 'cmTC_bdbbd' failed
-make[1]: *** [cmTC_bdbbd] Error 1
-make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_bdbbd/fast' failed
-make: *** [cmTC_bdbbd/fast] Error 2
+CMakeFiles/cmTC_a8bc0.dir/build.make:86: recipe for target 'cmTC_a8bc0' failed
+make[1]: *** [cmTC_a8bc0] Error 1
+make[1]: Leaving directory '/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a8bc0/fast' failed
+make: *** [cmTC_a8bc0/fast] Error 2
 
 

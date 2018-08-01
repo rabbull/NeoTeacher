@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.46/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/Server
+CMAKE_SOURCE_DIR = /home/karl/Documents/NeoTeacher/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/karl/Documents/NeoTeacher/Server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -59,185 +59,198 @@ include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/main.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/main.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/main.cpp.o -c /home/karl/Documents/NeoTeacher/Server/main.cpp
 
 CMakeFiles/Server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
 
 CMakeFiles/Server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
 
 CMakeFiles/Server.dir/src/Request/Request.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/Request.cpp.o: ../src/Request/Request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/src/Request/Request.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/Request.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/src/Request/Request.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/Request.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/Request.cpp
 
 CMakeFiles/Server.dir/src/Request/Request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/Request.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.cpp > CMakeFiles/Server.dir/src/Request/Request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/Request.cpp > CMakeFiles/Server.dir/src/Request/Request.cpp.i
 
 CMakeFiles/Server.dir/src/Request/Request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/Request.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.cpp -o CMakeFiles/Server.dir/src/Request/Request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/Request.cpp -o CMakeFiles/Server.dir/src/Request/Request.cpp.s
 
 CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o: ../src/Request/FileRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/FileRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/FileRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/FileRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/FileRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/FileRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/FileRequest.cpp > CMakeFiles/Server.dir/src/Request/FileRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/FileRequest.cpp > CMakeFiles/Server.dir/src/Request/FileRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/FileRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/FileRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/FileRequest.cpp -o CMakeFiles/Server.dir/src/Request/FileRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/FileRequest.cpp -o CMakeFiles/Server.dir/src/Request/FileRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o: ../src/Request/MouseEventRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/MouseEventRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/MouseEventRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/MouseEventRequest.cpp > CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/MouseEventRequest.cpp > CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/MouseEventRequest.cpp -o CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/MouseEventRequest.cpp -o CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o: ../src/Request/ErrorRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/ErrorRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/ErrorRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/ErrorRequest.cpp > CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/ErrorRequest.cpp > CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/ErrorRequest.cpp -o CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/ErrorRequest.cpp -o CMakeFiles/Server.dir/src/Request/ErrorRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o: ../src/Request/HandInRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandInRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/HandInRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandInRequest.cpp > CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/HandInRequest.cpp > CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandInRequest.cpp -o CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/HandInRequest.cpp -o CMakeFiles/Server.dir/src/Request/HandInRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o: ../src/Request/HandUpRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandUpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/HandUpRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandUpRequest.cpp > CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/HandUpRequest.cpp > CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandUpRequest.cpp -o CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/HandUpRequest.cpp -o CMakeFiles/Server.dir/src/Request/HandUpRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o: ../src/Request/OKRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/OKRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/OKRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.cpp > CMakeFiles/Server.dir/src/Request/OKRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/OKRequest.cpp > CMakeFiles/Server.dir/src/Request/OKRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/OKRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.cpp -o CMakeFiles/Server.dir/src/Request/OKRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/OKRequest.cpp -o CMakeFiles/Server.dir/src/Request/OKRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o: ../src/Request/LoginRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/LoginRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.cpp > CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/LoginRequest.cpp > CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.cpp -o CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/LoginRequest.cpp -o CMakeFiles/Server.dir/src/Request/LoginRequest.cpp.s
 
 CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o: ../src/Request/QuitRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Request/QuitRequest.cpp
 
 CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.cpp > CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Request/QuitRequest.cpp > CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.i
 
 CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.cpp -o CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Request/QuitRequest.cpp -o CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.s
 
 CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o: ../src/TransmissionControlProtocolSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp
 
 CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp > CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp > CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.i
 
 CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp -o CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp -o CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.s
 
 CMakeFiles/Server.dir/src/Setting.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Setting.cpp.o: ../src/Setting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server.dir/src/Setting.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Setting.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Server.dir/src/Setting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Setting.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Setting.cpp
 
 CMakeFiles/Server.dir/src/Setting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Setting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.cpp > CMakeFiles/Server.dir/src/Setting.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Setting.cpp > CMakeFiles/Server.dir/src/Setting.cpp.i
 
 CMakeFiles/Server.dir/src/Setting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Setting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.cpp -o CMakeFiles/Server.dir/src/Setting.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Setting.cpp -o CMakeFiles/Server.dir/src/Setting.cpp.s
 
 CMakeFiles/Server.dir/src/Client.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/Client.cpp.o: ../src/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Server.dir/src/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Client.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Server.dir/src/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/Client.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/Client.cpp
 
 CMakeFiles/Server.dir/src/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.cpp > CMakeFiles/Server.dir/src/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/Client.cpp > CMakeFiles/Server.dir/src/Client.cpp.i
 
 CMakeFiles/Server.dir/src/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.cpp -o CMakeFiles/Server.dir/src/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/Client.cpp -o CMakeFiles/Server.dir/src/Client.cpp.s
 
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/ClientManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Server.dir/src/ClientManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/ClientManager.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Server.dir/src/ClientManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/ClientManager.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/ClientManager.cpp
 
 CMakeFiles/Server.dir/src/ClientManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/ClientManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.cpp > CMakeFiles/Server.dir/src/ClientManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/ClientManager.cpp > CMakeFiles/Server.dir/src/ClientManager.cpp.i
 
 CMakeFiles/Server.dir/src/ClientManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/ClientManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.cpp -o CMakeFiles/Server.dir/src/ClientManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/ClientManager.cpp -o CMakeFiles/Server.dir/src/ClientManager.cpp.s
+
+CMakeFiles/Server.dir/src/RequestHandler.cpp.o: CMakeFiles/Server.dir/flags.make
+CMakeFiles/Server.dir/src/RequestHandler.cpp.o: ../src/RequestHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Server.dir/src/RequestHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/src/RequestHandler.cpp.o -c /home/karl/Documents/NeoTeacher/Server/src/RequestHandler.cpp
+
+CMakeFiles/Server.dir/src/RequestHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/src/RequestHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeoTeacher/Server/src/RequestHandler.cpp > CMakeFiles/Server.dir/src/RequestHandler.cpp.i
+
+CMakeFiles/Server.dir/src/RequestHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/src/RequestHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeoTeacher/Server/src/RequestHandler.cpp -o CMakeFiles/Server.dir/src/RequestHandler.cpp.s
 
 # Object files for target Server
 Server_OBJECTS = \
@@ -254,7 +267,8 @@ Server_OBJECTS = \
 "CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o" \
 "CMakeFiles/Server.dir/src/Setting.cpp.o" \
 "CMakeFiles/Server.dir/src/Client.cpp.o" \
-"CMakeFiles/Server.dir/src/ClientManager.cpp.o"
+"CMakeFiles/Server.dir/src/ClientManager.cpp.o" \
+"CMakeFiles/Server.dir/src/RequestHandler.cpp.o"
 
 # External object files for target Server
 Server_EXTERNAL_OBJECTS =
@@ -273,6 +287,7 @@ Server: CMakeFiles/Server.dir/src/TransmissionControlProtocolSerial.cpp.o
 Server: CMakeFiles/Server.dir/src/Setting.cpp.o
 Server: CMakeFiles/Server.dir/src/Client.cpp.o
 Server: CMakeFiles/Server.dir/src/ClientManager.cpp.o
+Server: CMakeFiles/Server.dir/src/RequestHandler.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: /usr/lib/x86_64-linux-gnu/libSM.so
 Server: /usr/lib/x86_64-linux-gnu/libICE.so
@@ -285,7 +300,6 @@ Server: /usr/local/lib/libopencv_shape.so.3.4.1
 Server: /usr/local/lib/libopencv_stitching.so.3.4.1
 Server: /usr/local/lib/libopencv_superres.so.3.4.1
 Server: /usr/local/lib/libopencv_videostab.so.3.4.1
-Server: /usr/local/lib/libopencv_viz.so.3.4.1
 Server: /usr/lib/x86_64-linux-gnu/libssl.so
 Server: /usr/lib/x86_64-linux-gnu/libcrypto.so
 Server: /usr/local/lib/libopencv_calib3d.so.3.4.1
@@ -299,7 +313,7 @@ Server: /usr/local/lib/libopencv_imgcodecs.so.3.4.1
 Server: /usr/local/lib/libopencv_imgproc.so.3.4.1
 Server: /usr/local/lib/libopencv_core.so.3.4.1
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -312,6 +326,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karl/Documents/NeuTeacher/NeoTeacher/Server /home/karl/Documents/NeuTeacher/NeoTeacher/Server /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug /home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karl/Documents/NeoTeacher/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karl/Documents/NeoTeacher/Server /home/karl/Documents/NeoTeacher/Server /home/karl/Documents/NeoTeacher/Server/cmake-build-debug /home/karl/Documents/NeoTeacher/Server/cmake-build-debug /home/karl/Documents/NeoTeacher/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Server.dir/depend
 

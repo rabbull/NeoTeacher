@@ -18,7 +18,6 @@ private:
     std::vector<Client *> clientList;
     pthread_t newConnectionHandlerPid;
 
-
 public:
     ClientManager() = default;
 

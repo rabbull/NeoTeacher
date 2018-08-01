@@ -5,45 +5,46 @@
 		<Option title="Server"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug"/>
+				<Option working_dir="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug"/>
+				<Option working_dir="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug"/>
+				<Option working_dir="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server">
-				<Option output="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug"/>
+				<Option output="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -55,19 +56,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server/fast">
-				<Option output="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug"/>
+				<Option output="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/karl/Documents/NeoTeacher/Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/jsoncpp"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -79,108 +81,114 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/karl/Documents/NeuTeacher/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/karl/Documents/NeoTeacher/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/main.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/main.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Client.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Client.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/ClientManager.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/ClientManager.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/ErrorRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/ErrorRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/ErrorRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/ErrorRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/FileRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/FileRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/FileRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/FileRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandInRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/HandInRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandInRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/HandInRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandUpRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/HandUpRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/HandUpRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/HandUpRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/LoginRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/LoginRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/MouseEventRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/MouseEventRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/MouseEventRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/MouseEventRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/OKRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/OKRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/QuitRequest.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/QuitRequest.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/Request.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Request/Request.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/RequestHandler.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/RequestHandler.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Setting.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/TransmissionControlProtocolSerial.h">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/Setting.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/CMakeLists.txt">
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/TransmissionControlProtocolSerial.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/src/TransmissionControlProtocolSerial.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/Server/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/karl/Documents/NeoTeacher/Server/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
